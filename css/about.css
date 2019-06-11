@@ -1,0 +1,64 @@
+/*ABOUT画面*/
+.content-about{
+  background: url('../img/back.jpg');
+  background-size: cover;
+  background-position: 0% 80%;
+  width: 100vw;
+  height: 100vh;
+}
+.title-text-about{
+  font-family: cursive;
+  font-size: 2.8rem;
+  color: white;
+  box-sizing: inherit;
+  padding-top: 10px;
+  text-align: center;
+}
+.profile{
+  background-color: #f4f4f4ed;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  width: 50%;
+  height: 350px;
+  box-sizing: inherit;
+  padding: 15px;
+}
+.profile-title{
+  color: black;
+  box-sizing: inherit;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.link-box-about{
+  margin-top: 50px;
+}
+.text-content{
+  list-style:;
+}
+.plofile-text{
+  color: black;
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 10px;
+}
+.list-text{
+  color: black;
+  box-sizing: inherit;
+  padding-left: 10px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+ul li {
+  position: relative;
+}
+ul li::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: .65em;
+  left: -1em;
+  width: 8px;
+  height: 1px;
+  background-color: #666;
+}

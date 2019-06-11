@@ -1,0 +1,77 @@
+/*WORKS画面*/
+.content-works{
+  background: url('../img/jsコード画面.jpg');
+  background-size: 100% 100%;
+  background-position: 0% 80%;
+  width: 100%;
+  height: 100%;
+}
+.works-wrap{
+  width: 70%;
+  margin: 0 auto;
+}
+.works{
+  width: 100%;
+  height: 200px;
+  background-color: #04000040;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  overflow: auto;
+}
+.works:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.works-img{
+  width: 40%;
+  height: 100%;
+  margin-right: 10px;
+  border: 1px solid #0000008a;
+  float: left;
+  border-radius: 5px;
+}
+.work-title{
+  position: relative;
+  color: white;
+  font-family: bold;
+  font-size: 1rem;
+  top: 10px;
+}
+.work-discription{
+  position: relative;
+  color: white;
+  font-family: bold;
+  font-size: 1rem;
+  top: 10px;
+}
+.work-url{
+  position: relative;
+  color: white;
+  font-family: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  top: 10px;
+  display: block;
+  cursor: pointer;
+}
+.work-url:hover{
+  color: #00cbffed;
+}
+.work-use{
+  position: relative;
+  color: white;
+  font-family: bold;
+  font-size: 1rem;
+  top: 10px;
+}
+.discription{
+  position: relative;
+  color: white;
+  font-family: bold;
+  font-size: 0.8rem;
+  top: 10px;
+}
+.link-box-works{
+  margin: 50px 0 50px 0;
+}
