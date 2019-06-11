@@ -1,0 +1,166 @@
+/*TOP画面*/
+.content{
+  background: url('../img/ウユニ塩湖.jpg');
+  background-size: cover;
+  background-position: 0% 80%;
+  width: 100vw;
+  height: 100vh;
+}
+.title-text{
+  font-family: cursive;
+  font-size: 2.8rem;
+  color: white;
+  box-sizing: inherit;
+  padding-top: 200px;
+  text-align: center;
+}
+.link-box{
+  margin-top: 100px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+.link:hover{
+  color: #00000094;
+}
+/*ABOUT画面*/
+.content-about{
+  background: url('../img/back.jpg');
+  background-size: cover;
+  background-position: 0% 80%;
+  width: 100vw;
+  height: 100vh;
+}
+.title-text-about{
+  font-family: cursive;
+  font-size: 2.8rem;
+  color: white;
+  box-sizing: inherit;
+  padding-top: 10px;
+  text-align: center;
+}
+.profile{
+  background-color: #f4f4f4;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  width: 50%;
+  height: 350px;
+  box-sizing: inherit;
+  padding: 15px;
+}
+.profile-title{
+  color: black;
+  box-sizing: inherit;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.link-box-about{
+  margin-top: 50px;
+}
+.text-content{
+  list-style:;
+}
+.plofile-text{
+  color: black;
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 10px;
+}
+.list-text{
+  color: black;
+  box-sizing: inherit;
+  padding-left: 10px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+ul li {
+  position: relative;
+}
+ul li::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: .65em;
+  left: -1em;
+  width: 8px;
+  height: 1px;
+  background-color: #666;
+}
+/*WORKS画面*/
+.content-works{
+  background: url('../img/jsコード画面.jpg');
+  background-size: 100% 100%;
+  background-position: 0% 80%;
+  width: 100%;
+  height: 100%;
+}
+.works-wrap{
+  width: 70%;
+  margin: 0 auto;
+}
+.works{
+  width: 100%;
+  height: 200px;
+  background-color: #04000040;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  overflow: auto;
+}
+.works:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.works-img{
+  width: 40%;
+  height: 100%;
+  margin-right: 10px;
+  border: 1px solid #0000008a;
+  float: left;
+  border-radius: 5px;
+}
+.work-title{
+  position: relative;
+  color: white;
+  font-family: bold;
+  font-size: 1rem;
+  top: 10px;
+}
+.work-discription{
+  position: relative;
+  color: white;
+  font-family: bold;
+  font-size: 1rem;
+  top: 10px;
+}
+.work-url{
+  position: relative;
+  color: white;
+  font-family: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  top: 10px;
+  display: block;
+  cursor: pointer;
+}
+.work-url:hover{
+  color: #00cbffed;
+}
+.work-use{
+  position: relative;
+  color: white;
+  font-family: bold;
+  font-size: 1rem;
+  top: 10px;
+}
+.discription{
+  position: relative;
+  color: white;
+  font-family: bold;
+  font-size: 0.8rem;
+  top: 10px;
+}
