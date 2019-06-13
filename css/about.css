@@ -3,8 +3,8 @@
   background: url('../img/back.jpg');
   background-size: cover;
   background-position: 0% 80%;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 .title-text-about{
   font-family: cursive;
@@ -20,9 +20,10 @@
   margin-top: 50px;
   border-radius: 5px;
   width: 50%;
-  height: 350px;
+  height: 450px;
   box-sizing: inherit;
   padding: 15px;
+  overflow: scroll;
 }
 .profile-title{
   color: black;
@@ -43,13 +44,51 @@
   margin-left: 10px;
 }
 .list-text{
-  color: black;
+  color: #444;
   box-sizing: inherit;
   padding-left: 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
+  font-family: bold;
 }
-ul li {
+.list-text-lang{
+  color: #444;
+  box-sizing: inherit;
+  padding-left: 10px;
+  font-size: 1rem;
+  text-align: center;
+  font-family: bold;
+}
+.profile-text{
+  color: #444;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.profile-text:before, .profile-text:after{
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background: #444;
+  display: block;
+}
+.profile-text:before {
+  margin-right: .4em;
+}
+.profile-text:after {
+  margin-left: .4em;
+}
+.link-blog{
+  text-decoration: none;
+  color: #444;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+.link-blog:hover{
+  color: #ff8200bd;
+}
+/*ul li {
   position: relative;
 }
 ul li::after {
@@ -62,3 +101,4 @@ ul li::after {
   height: 1px;
   background-color: #666;
 }
+*/
